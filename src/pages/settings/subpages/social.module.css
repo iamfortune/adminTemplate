@@ -1,0 +1,150 @@
+.Main {
+  margin: 2rem;
+}
+
+.Main h1 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.Section {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 3rem;
+}
+
+.Aside div {
+  background-color: #fff;
+  margin-bottom: 1rem;
+  padding: 0.8rem 1rem 1.2rem;
+  border-radius: 0.5rem;
+}
+
+.Aside h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.Aside span {
+  color: #fff;
+  padding: 0.2rem 1rem 0.3rem;
+  border-radius: 0.5rem;
+}
+
+.Aside .fb {
+  background: #2f009e;
+}
+
+.Aside .twitter {
+  background: #258fe5;
+}
+
+.Aside .pinterest {
+  background: #e52525;
+}
+
+.Content {
+  background: #fff;
+  padding: 3rem;
+}
+
+.Content button {
+  float: right;
+  background: #ab49e7;
+  color: #fff;
+  font-weight: 500;
+  transition: all 1s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.Content .clear {
+  clear: both;
+}
+
+.Content .Bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0 1rem;
+  min-width: 100%;
+}
+
+.Content .Bar > div {
+  display: flex;
+  align-items: center;
+}
+
+.Content .Bar > div:last-child {
+  padding-right: 30px;
+}
+
+.Content label {
+  margin-right: 1rem;
+}
+
+.Content input {
+  height: 28px;
+  padding: 0 10px;
+  max-width: 100%;
+}
+
+.Content input[type='number'] {
+  max-width: 4rem;
+}
+
+.Content table {
+  width: 100%;
+  text-align: left;
+}
+
+.Content th,
+.Content td {
+  padding: 0.6rem 1rem;
+  border-top: 2px solid #ddd;
+}
+
+.Footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.Footer span {
+  display: inline-block;
+  font-weight: 900;
+  margin-left: 0.6rem;
+  transition: all 1s;
+}
+
+.Footer span:hover {
+  opacity: 0.8;
+}
+
+.Footer .num {
+  background: #258fe5;
+  color: #fff;
+  padding: 0.1rem 0.8rem;
+}
+
+.Deactive, .Active, .Delete{
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.Active{
+  background-color: #5fdba7 ;
+}
+
+.Delete{
+  background-color: #d11a2a ;
+}
+
+
+.Deactive {
+  margin: 0 10px;
+  background-color: #d3d3d3 ;
+}

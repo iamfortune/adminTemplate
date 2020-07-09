@@ -1,0 +1,39 @@
+.home__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px 5%;
+}
+
+.home__col {
+  width: 45%;
+}
+
+.home__col:last-child {
+  padding-right: 80px;
+}
+
+.home__col > img {
+  width: 100%;
+}
+
+.divider {
+  width: 1px;
+  height: 60vh;
+  background-color: rgba(102, 102, 102, 0.212);
+}
+
+.home__welcome {
+  color: #acacac;
+}
+
+.home__welcome--big{
+    font-size: 36px;
+}
+
+.home__welcome--big span{
+    color: #1c3149;
+    font-size: 40px;
+}

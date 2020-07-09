@@ -1,0 +1,85 @@
+.Main {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-gap: 1rem;
+}
+
+.Settings {
+  margin: 3rem 4rem 2rem 2rem;
+  max-width: 100%;
+}
+
+.Settings h1 {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.Section {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  border: 2px solid #f2f2f2;
+  margin-bottom: 1rem;
+}
+
+.Section > .Form {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.Form label {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.Input {
+  border: 2px solid #ddd;
+  border-radius: 0.5rem;
+  padding: 10px;
+}
+
+.Buttons {
+  display: flex;
+  justify-content: space-between;
+  /* margin-left: 15em; */
+  /* margin-right: 1.5rem; */
+}
+
+.SaveBtn {
+  background-color: #ab49e7;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: opacity 1s;
+  /* grid-column: 2/3; */
+}
+
+.SaveBtn:hover {
+  opacity: 0.8;
+}
+
+.Password {
+  border: 3px solid #f2f2f2;
+  height: 50px;
+  border-radius: 0.5rem;
+  padding: 1rem 1.3rem;
+  transition: all 1s;
+  /* grid-column: 3/5; */
+}
+
+.Password:hover {
+  box-shadow: 1px 2px 5px #333;
+}
+/* .UrlBtn {
+  margin-left: 18rem;
+} */
+
+.Img {
+  margin-top: 10rem;
+}
+
+.Avatar {
+  max-width: 100px;
+}

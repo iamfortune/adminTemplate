@@ -1,0 +1,179 @@
+/* ///META */
+
+.meta * {
+  font-size: 13px !important;
+}
+
+.meta th {
+  color: #9eabbe;
+}
+
+.meta-body * {
+  color: #20172e;
+  font-weight: 500;
+}
+
+.squarecheck {
+  display: none;
+}
+
+.squarecheck-label {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  background-color: #a0a2a6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.inner-check {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  background-color: #a0a2a6;
+}
+
+.squarecheck:checked ~ label .squarecheck-label {
+  background-color: #cc80e5;
+
+}
+
+.squarecheck:checked ~ label .squarecheck-label .inner-check {
+  background-color: #9f0dce;
+}
+
+.squarecheck:checked .checked-bg {
+  background-color: #fff;
+  padding: 5px;
+}
+
+.img-wrapper {
+  background-color: #9f0dce;
+  width: 15px;
+  height: 15px;
+  padding: 5px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-wrapper img {
+  width: 10px;
+  height: 10px;
+}
+
+.meta-color-text {
+  color: #cc80e5;
+  font-size: 11px !important;
+  font-weight: 600;
+  cursor: pointer;
+  width: 30%;
+}
+.meta-color-text:first-child {
+  padding-left: 0px;
+}
+.meta-color-text > img {
+  padding-left: 2px;
+}
+
+.meta-color-text > div {
+  margin-left: 2px;
+}
+
+.date {
+  width: max-content;
+  margin-right: 10px;
+}
+
+.viral {
+  background-color: #f2ebfb;
+  border-radius: 3px;
+  padding: 5px;
+  margin-right: 5px;
+  width: max-content;
+  margin-left: 10px;
+  cursor: pointer;
+  width: 50%;
+}
+
+.viral > p {
+  font-size: 11px !important;
+  text-align: center;
+  color: #b067ec;
+  font-weight: 700;
+}
+
+.share {
+  background-color: #ffe6e6;
+  border-radius: 3px;
+  padding: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+  width: 50%;
+}
+
+.share > p {
+  font-size: 11px !important;
+  text-align: center;
+  color: #ffbf9c;
+  font-weight: 700;
+}
+
+.allLinks .grab-link {
+  background-color: #7e11e0;
+  border-radius: 3px;
+  padding: 5px;
+  margin-right: 5px;
+  width: 60px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.allLinks .grab-link > p {
+  font-size: 11px !important;
+  text-align: center;
+  color: #bba1f4;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.allLinks .pagination {
+  display: flex;
+  justify-content: flex-end;
+  color: #7e9bc0;
+  text-align: center;
+}
+
+.pagination > div {
+  background-color: #dcdfe6;
+  height: 20px;
+  width: 20px;
+  /* padding: 5px; */
+  border-radius: 2px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.edit-delete-btn > p {
+  cursor: pointer;
+}
+
+
+
+.linkHeadBtn button:first-child{
+    background-color: #e8cfff;
+    color: #b03bdc;
+}
+
+.second.linkHeadBtn button{
+    background-color: #f6c6cc;
+    color: #fd1626;
+}
+
+.linkHeader{
+    font-size: 16px;
+    font-weight: 600;
+}

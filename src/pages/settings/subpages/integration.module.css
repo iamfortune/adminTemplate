@@ -1,0 +1,90 @@
+.Main {
+  margin: 2rem;
+}
+
+.Main h1 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.Section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5rem;
+  max-width: 80%;
+  padding: 0.1rem 1rem 2rem;
+  border-radius: 0.5rem;
+  margin-bottom: 5rem;
+}
+
+.Section div > img{
+  border-radius: 16px;
+}
+
+.Section > div {
+  text-align: center;
+  color: #666;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 1px 0 2px 1px rgb(181, 183, 196);
+}
+
+.AddBtn {
+  background-color: #ab49e7;
+  color: #fff;
+  float: right;
+  margin-top: -3rem;
+  padding: 1rem 2.5rem;
+  transition: all 1s;
+}
+
+.AddBtn:hover {
+  opacity: 0.8;
+}
+
+.Table {
+  line-height: 2;
+}
+
+table {
+  width: 100%;
+}
+
+.Table th {
+  color: rgb(151, 151, 151);
+  text-align: left;
+  font-weight: 500;
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.Table tr {
+  text-align: left;
+  font-weight: 500;
+}
+
+.Table tr .Blue {
+  color: #8925e5;
+}
+
+.Table .tRow {
+  background-color: #fff;
+}
+
+.Table .APIKEY {
+  background-color: #f3e9fc;
+  color: #ab49e7;
+  padding: 0.3rem 1rem;
+  text-decoration: underline;
+}
+
+.Table td {
+  padding: 0.8rem 1rem;
+}
+
+.Table img {
+  display: inline-block;
+  margin-left: 2px;
+  max-width: 12px;
+}

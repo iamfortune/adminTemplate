@@ -1,0 +1,22 @@
+.Nav{
+    background-color: #f3e9fc;
+    color: #ab49e7;
+    border-radius: 70px;
+    padding: 0.6rem;
+    max-width: max-content;
+    margin-top: 2rem;
+}
+
+.Nav span{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.8rem 2rem;
+    margin-right: 0.2rem;
+}
+
+.Active{
+    background-color: #ab49e7;
+    color: #FFF;
+    border-radius: 70px;
+    box-shadow: 1px 1px 8px  #ab49e7;
+}

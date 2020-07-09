@@ -1,0 +1,175 @@
+.pvForm {
+  min-width: 100%;
+  color: #c7c7d0;
+  font-size: 14px;
+}
+
+.pvForm > .pvForm-header {
+  color: #9d9ea6;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.pvForm > div {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.pvForm > div > div {
+  margin-top: 5px;
+  width: 100%;
+}
+
+.pvForm input {
+  width: 100%;
+}
+
+.close-message,
+.close-url {
+  display: none;
+  position: absolute;
+  left: 0;
+  transition: 1s ease all;
+  opacity: 0;
+}
+
+input[type='radio'] {
+  width: 10px;
+}
+
+input[type='radio'] + label {
+  margin-left: 5px;
+}
+
+input[type='color'] {
+  padding: 0;
+  border: 0;
+  width: 30px;
+}
+
+.colorVal {
+  margin-left: 10px;
+  padding-bottom: 5px;
+}
+
+.close-message > label,
+.close-url > label {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+#message:checked ~ .close-message {
+  display: block;
+  opacity: 1;
+}
+
+#url:checked ~ .close-url {
+  display: block;
+  opacity: 1;
+}
+
+.download-final button {
+  display: block;
+  background-color: #36c936;
+  margin-bottom: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.block > label {
+  display: block;
+
+  margin-bottom: 3px;
+}
+
+input,
+select {
+  padding: 5px;
+  text-transform: capitalize;
+}
+
+select {
+  padding-left: 10px;
+}
+textarea,
+input,
+select {
+  background-color: #fff;
+  border: 1px solid #c2c5ce;
+  border-radius: 3px;
+  color: #888a90;
+  width: 100%;
+}
+
+option {
+  text-transform: capitalize;
+}
+
+input::placeholder {
+  color: #c2c5ce;
+}
+
+.logo-upload .row,
+.bg-upload .row {
+  margin-top: 5px;
+}
+
+.bg-upload > .row > button:first-child,
+.logo-upload > .row > button:first-child {
+  min-width: 45px;
+  max-width: 45px;
+  height: 30px;
+  padding: 5px;
+  background: #36c936;
+  border-radius: 3px;
+}
+
+.bg-upload .row button:last-child,
+.logo-upload .row button:last-child {
+  min-width: 45px;
+  max-width: 45px;
+  height: 30px;
+  padding: 5px;
+  background: #ff3a7f;
+  border-radius: 3px;
+  margin-left: 10px;
+}
+
+.bg-upload .row button img,
+.logo-upload .row button img {
+  width: 70%;
+  height: 70%;
+}
+
+
+.messageLabel, #message, #url, .urlLabel{
+  min-width: fit-content;
+  display: inline-block;
+}
+
+#colorSet{
+  min-width: 40px;
+  height: 20px;
+  border-radius: 3px;
+  
+}
+
+.colorSetDiv{
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  height: fit-content;
+}
+
+.colorVal{
+  padding: 0;
+}
+
+
+.messageLabel, .urlLabel{
+  margin: 0;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}

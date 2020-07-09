@@ -1,0 +1,61 @@
+.input {
+  background-color: #f5f5f5;
+  border-radius: 3px;
+  min-width: 100% !important;
+  max-width: max-content;
+  padding: 10px 15px;
+  box-shadow: 0px 1px 0px 2px #eee;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  position: relative;
+}
+
+.input:hover {
+  background-color: transparent;
+  /* box-shadow: 0px 1px 0px 2px transparent; */
+}
+
+.input__tag {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.input__tag label {
+  text-transform: capitalize;
+  font-weight: 400;
+}
+.input__tag input {
+  margin-top: 0px;
+  background: transparent;
+  border: none;
+  font-weight: 600;
+  padding: 0 5px;
+}
+
+.mark,
+.input__tag input:invalid ~ .mark {
+  position: absolute;
+  right: 10px;
+  top: 25px;
+  display: none;
+}
+
+.input__tag input:valid ~ .mark {
+  display: block;
+}
+
+/* Plain Input */
+
+.plainInput > input {
+  padding: 10px 20px;
+  border-radius: 20px !important;
+  border: none;
+  box-shadow: 1px 0 2px 1px #eee ;
+  width: 100%;
+}
+
+.plainInput > input::placeholder{
+  text-transform: capitalize;
+}

@@ -1,0 +1,51 @@
+.campaign-2 .second-one > .num {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #6000d1;
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.campaign-3 .second-one > .num {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #6000d1;
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.campaign-3 .third-one > .num {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #6000d1;
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.previewCampFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 10px;
+}

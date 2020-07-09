@@ -1,0 +1,146 @@
+.nav-btn > .sliding-button > div {
+  border-radius: 47px;
+  text-align: center;
+  min-height: 47px;
+  min-width: max-content;
+  font-weight: 600;
+  display: flex;
+  width: max-content;
+  border-radius: 16px;
+  padding: 0 10px;
+  margin-left: auto;
+}
+
+.nav-btn > .sliding-button > div > div {
+  line-height: 47px;
+}
+
+.nav-btn > .sliding-button > div > div:first-child {
+  margin-right: 20px;
+}
+
+.profile {
+  background-color: #d1d4d9;
+  width: 180px;
+  height: 47px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 47px;
+  padding-right: 10px;
+}
+
+.profile > .pic {
+  /* background-image: url(); */
+  background-color: #8925e5;
+  width: 47px;
+  height: 100%;
+  border-radius: 47px;
+}
+
+.profile > .name {
+  margin: auto;
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+.profile > .dot {
+  width: 5px;
+  height: 5px;
+  margin: auto;
+  /* background-color: black; */
+  border: 2px black solid;
+  border-radius: 50%;
+}
+
+.search {
+  display: flex;
+  background-color: #eaeff0;
+  border-radius: 47px;
+  height: 47px;
+  position: relative;
+  /* width: 70%; */
+  /* padding: 12px 0px; */
+}
+
+.search > input {
+  background-color: #eaeff0;
+  border-radius: 47px 0 0 47px;
+  height: 47px;
+  width: 80%;
+  padding: 12px 20px;
+  border: 2px solid rgb(226, 226, 226);
+  position: absolute;
+}
+
+.search > .shorten {
+  background-color: rgb(60, 149, 223);
+  border-radius: 47px;
+  color: white;
+  width: 30%;
+  height: 47px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
+  font-weight: bolder;
+  letter-spacing: 1px;
+  font-size: 16px;
+  z-index: 10;
+  position: absolute;
+  right: 0;
+  line-height: 47px;
+  text-align: center;
+}
+
+.topNav-big {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.topNav-small {
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.previewSlider .light,
+.previewSlider .dark {
+  padding: 5px 10px;
+  border-radius: 16px;
+  min-width: 30%;
+}
+
+.previewSlider .light {
+  color: #222225;
+  z-index: 0;
+}
+
+.previewSlider .dark {
+  background-color: #8925e5;
+  color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 10px;
+}
+
+nav .second-one > .num {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #6000d1;
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.previewFlex {
+  display: flex;
+  min-width: max-content;
+  width: fit-content;
+  background-color: #e8cfff;
+  padding: 0 15px;
+  align-items: center;
+  border-radius: 16px;
+}

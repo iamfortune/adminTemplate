@@ -1,0 +1,310 @@
+@font-face {
+  font-family: 'AvenirNextLTPro';
+  src: url('./font/AvenirNextLTPro-Regular/AvenirNextLTPro-Regular.otf');
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  transition: 0.3s ease all;
+  font-size: 0.95rem;
+  line-height: 22px;
+  font-family: 'AvenirNextLTPro' !important;
+}
+
+a,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: unset;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #1c3149;
+  background-color: #f4f8ff;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+/* ==FLEX== */
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.row.wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.row.space-between {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row.space-evenly {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.row.space-evenly {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.column.space-between {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.column.space-evenly {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* ==POSITION== */
+
+.relative {
+  position: relative !important;
+}
+
+/* ==MARGIN=== */
+
+.m {
+  margin: 20px;
+}
+
+.m-big {
+  margin: 50px;
+}
+
+.mt {
+  margin-top: 20px;
+}
+
+.mr {
+  margin-right: 20px;
+}
+
+.ml {
+  margin-left: 20px;
+}
+
+.mb {
+  margin-bottom: 20px;
+}
+
+.mt-big {
+  margin-top: 50px;
+}
+
+.mr-big {
+  margin-right: 50px;
+}
+
+.ml-big {
+  margin-left: 50px;
+}
+
+.mb-big {
+  margin-bottom: 50px;
+}
+
+/* ===WIDTH=== */
+.col-1 {
+  width: 6.33%;
+}
+
+.col-2 {
+  width: 14.66%;
+}
+
+.col-3 {
+  width: 23%;
+}
+
+.col-4 {
+  width: 31.33%;
+}
+
+.col-5 {
+  width: 39.66%;
+}
+
+.col-6 {
+  width: 48%;
+}
+
+.col-7 {
+  width: 56.33%;
+}
+
+.col-8 {
+  width: 64.66%;
+}
+
+.col-9 {
+  width: 73%;
+}
+
+.col-10 {
+  width: 81.33%;
+}
+
+.col-11 {
+  width: 89.66%;
+}
+
+.col-12 {
+  width: 98%;
+}
+
+/* ===Text=== */
+.center-text {
+  text-align: center;
+}
+
+.left-text {
+  text-align: left;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  min-width: max-content;
+}
+
+.share > p {
+  color: #4267b2 !important;
+}
+
+.edit-delete-btn > div > p {
+  color: #cc80e5;
+  font-size: 0.7rem !important;
+  font-weight: 600;
+  cursor: pointer;
+  margin-right: 3px;
+}
+
+.edit-delete-btn > div {
+  width: max-content;
+}
+
+.edit-delete-btn > div:nth-child(even) {
+  margin: 0 8px;
+}
+
+.img-wrapper {
+  background-color: #9f0dce;
+  width: 15px;
+  height: 15px;
+  padding: 5px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-wrapper img {
+  width: 10px;
+  position: relative;
+}
+
+table tbody > tr {
+  padding: 10px 0 !important;
+}
+tr > td:first-child {
+  padding-left: 5px;
+}
+
+tr > td:last-child {
+  padding-right: 5px;
+}
+table div.mb,
+table div.mt,
+table div.mt-big {
+  margin: 0 !important;
+}
+
+.meta table,
+table,
+div.mt-big:nth-child(3) {
+  min-width: 100%;
+  margin-left: auto !important;
+}
+
+table > tbody > tr > td {
+  margin: 0 15px;
+}
+
+table > tbody > tr > td p {
+  font-size: 0.9rem !important;
+}
+
+table > tbody > tr > td a {
+  font-size: 1rem;
+}
+
+#root
+  > div
+  > div
+  > div
+  > div
+  > div.col-10
+  > div
+  > div
+  > div:nth-child(1)
+  > div.col-5
+  > div
+  > div.filter-div.pointer.col-2.row {
+  /* display: none; */
+  max-height: 50px;
+}
+
+.App {
+  padding-right: 2rem !important;
+}
+
+.max-content {
+  min-width: max-content;
+}
+
+.overlay * {
+  z-index: 3 !important;
+}

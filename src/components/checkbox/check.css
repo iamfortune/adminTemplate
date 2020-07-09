@@ -1,0 +1,33 @@
+.checkbox{
+    display: flex;
+    align-content: center;
+}
+
+.checkbox input{
+    display: none;
+}
+
+
+.checkbox label{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #666;
+    margin: 0;
+    padding: 0;
+    transition: 0.05s ease all;
+}
+
+.checkbox input:checked ~ label{
+    background-image: url('./../../assets/done.svg');
+    background-position: center;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    
+}
+
+.checkbox span {
+  text-transform: capitalize;
+  font-weight: 400;
+  margin-left: 2px;
+}

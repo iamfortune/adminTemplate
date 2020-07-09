@@ -1,0 +1,76 @@
+.Main {
+  margin: 3rem 2rem;
+  color: rgb(105, 101, 101);
+}
+
+.Main h1 {
+  font-size: 1.6rem;
+}
+
+.Section {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  padding: 1.5rem 2rem 6rem;
+  margin-top: 1.5rem;
+  margin-left: 2rem;
+}
+
+.Section h4 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.Section ol {
+  margin-left: 2rem;
+}
+
+.Section ol li {
+  font-size: 1.1rem;
+  line-height: 2rem;
+}
+
+.Section ul {
+  list-style-type: disc;
+  margin-left: 4rem;
+}
+
+.IP {
+  color: red;
+  font-weight: 500;
+}
+
+.Section form {
+  margin: 1rem 2rem 2rem 2rem;
+}
+
+.Input {
+  border: 2px solid #ddd;
+  height: 45px;
+  width: 90%;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  text-transform: lowercase;
+}
+
+.Section button {
+  border-radius: 0;
+  background-color: rgb(23, 90, 23);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 0.6rem;
+  transition: all 1s;
+}
+
+.Section button:hover {
+  opacity: 0.9;
+}
+
+.Alert {
+  background-color: rgb(255, 216, 143);
+  color: #555;
+  font-weight: 600;
+  padding: 0.8rem 0 0.8rem 2rem;
+  border-radius: 0.3rem;
+}

@@ -1,0 +1,159 @@
+
+* {
+  font-family: sans-serif;
+}
+
+/* Main styles */
+.wrapper {
+  width: 600px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  background-color: #fefefe;
+  border-radius: 35px;
+  padding: 50px;
+  margin: 30px auto;
+  width: 100%;
+  height: 60%;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  background-color: #fefefe;
+  border-radius: 50px;
+  padding: 50px;
+  margin: auto;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 10px;
+}
+
+.close-box box {
+  display: flex;
+  justify-content: flex-end;
+}
+.close-box {
+  background-color: red;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  /* margin-bottom: 10pxtitle-box {
+  
+}
+
+.title {
+  font-size: 18px;
+  color: #686868;
+  grid-column: 2/5;
+
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  /* background-color: #686868; */
+  border-radius: 25%;
+  margin-right: 50px;
+}
+
+.wrapper .close-comp{
+  position: relative;
+}
+
+.wrapper .close-comp > button{
+  position: absolute;
+  right:  -90px;
+  top: -40px;
+  min-height: 30px;
+  max-height: 30px;
+  min-width: 30px;
+  max-width: 30px;
+  border-radius: 50%;
+
+}
+
+.content {
+  grid-column: 2/5;
+}
+
+.content-1,
+.content-2,
+.content-3,
+.content-4 {
+  margin-bottom: 5px;
+}
+
+input, textarea, select {
+  width: 100%;
+}
+
+
+/* Pinterest styles */
+.pinterest-content>.content-2>input {
+  height: 40px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #c5c5c5;
+}
+
+/* Twitter styles */
+.twitter-content>textarea {
+  padding: 10px;
+  border: 2px solid #00ccff;
+  border-radius: 5px;
+}
+
+.twitter-logo {
+  margin-top: 50px;
+}
+
+/* Facebook styles */
+.facebook-content>.content-1>.content-head {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.facebook-content>.content-1>.content-subheading {
+  font-size: 16px;
+  /* font-weight: bold; */
+}
+
+.facebook-content>.content-2>select,
+.facebook-content>.content-3>input {
+  height: 40px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #c5c5c5;
+  color: blue;
+}
+
+/* Post box */
+.post-box>input {
+  min-width: 100px;
+  max-width: 100px;
+  height: 40px;
+  border-radius: 46px !important;
+  border: none;
+  background-color: blueviolet;
+  color: white;
+
+}
+
+.post-box {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+
+.overlay{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.479);
+    align-items: center;
+}

@@ -1,0 +1,158 @@
+.link__main--search {
+  width: 90%;
+}
+
+.link__main--search input {
+  background-color: #f3effd !important;
+  padding: 15px;
+  min-height: 45px;
+}
+
+.link__main--search input::placeholder {
+  color: #7e9bc0;
+}
+
+.link__search--button {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.link__search--button button {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* ///META */
+
+.meta * {
+  font-size: 13px !important;
+  text-align: left;
+}
+
+.meta th {
+  color: #9eabbe;
+}
+
+.meta-body * {
+  color: #20172e;
+  font-weight: 500;
+}
+
+.squarecheck {
+  display: none;
+}
+
+.squarecheck-label {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  background-color: #a0a2a6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.inner-check {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  background-color: #a0a2a6;
+}
+
+.squarecheck:checked ~ label .squarecheck-label {
+  background-color: #cc80e5;
+}
+
+.squarecheck:checked ~ label .squarecheck-label .inner-check {
+  background-color: #9f0dce;
+}
+
+.squarecheck:checked .checked-bg {
+  background-color: #fff;
+  padding: 5px;
+}
+
+
+.date {
+  width: max-content;
+  margin-right: 10px;
+}
+
+.viral {
+  background-color: #f2ebfb;
+  border-radius: 3px;
+  padding: 5px;
+  margin-right: 5px;
+  width: max-content;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.viral > p {
+  font-size: 11px !important;
+  text-align: center;
+  color: #b067ec;
+  font-weight: 700;
+}
+
+.share {
+  background-color: #ffe6e6;
+  border-radius: 3px;
+  padding: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.share > p {
+  font-size: 11px !important;
+  text-align: center;
+  color: #ffbf9c;
+  font-weight: 700;
+}
+
+.meta .grab-link {
+  background-color: #7e11e0 !important;
+  border-radius: 3px;
+  padding: 5px;
+  margin-right: 5px;
+  width: 100%;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.meta .grab-link > p {
+  font-size: 11px !important;
+  text-align: center;
+  color: #bba1f4;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.meta .pagination {
+  display: flex;
+  justify-content: flex-end;
+  color: #7e9bc0;
+  text-align: center !important;
+}
+
+.meta .pagination > div {
+  background-color: #dcdfe6;
+  height: 20px;
+  width: 20px;
+  padding: 5px;
+  border-radius: 2px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.edit-delete-btn {
+  min-width: max-content;
+}
+
+.edit-delete-btn > p {
+  cursor: pointer;
+}
+
+ 
